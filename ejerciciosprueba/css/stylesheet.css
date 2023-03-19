@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+.container{
+
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+
+    background-color: rgb(247, 234, 215);
+}
+
+header .container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .titulo{
+
+    display: flex;
+    margin: 0;
+    padding: 25px 30px;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+
+header nav{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace; 
+    color: #000; 
+    padding-bottom: 25px;
+}
+
+header a{
+
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: aliceblue;
+}
+
+#hero{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+
+.color-acento{
+    color: rgb(128, 128, 105);
+}
+
+#somos-cestlavie .container{
+
+    text-align: center;
+    padding: 25px 10px;
+}
+
+#masnovedades {
+
+    background-color:rgb(240, 230, 218); 
+    text-align: center;
+}
+
+#masnovedades .container{
+
+    padding: 100px 0px;
+}
+
+#masnovedades h2{
+
+    margin-top: 0;
+}
+
+#masnovedades p{
+
+    display: none;
+}
+
+.cartas-musica{
+
+    background-image: url("/ejerciciosprueba/img/coffee.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 30px 30px;
+    padding: 40px;
+    color: rgb(26, 25, 24);
+
+}
+
+.cartas-espectaculo{
+
+    background-image: url("/ejerciciosprueba/img/diseño-fondo.jpg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 30px 30px;
+    padding: 40px;
+    color: rgb(26, 25, 24);
+}
+
+.cartas-makeup{
+
+    background-image: url("/ejerciciosprueba/img/oporto.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 30px 30px;
+    padding: 40px;
+    color: rgb(26, 25, 24);
+}
+
+footer{
+
+    background-color: rgb(252, 248, 244);
+}
+
+footer p{
+
+    margin: 0;
+    padding: 12px;
+    color:#555454; 
+}
+
+footer .container{
+
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+

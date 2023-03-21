@@ -1,0 +1,17 @@
+/*Selector de etiqueta*/
+nav{
+    background-color: rgb(195, 160, 228);
+    width: 250px;
+}
+main{
+    background-color: rgb(226, 207, 243);
+}
+/*Selector de video*/
+#introduccion{
+    background-color: rgb(195, 247, 247);
+    color: black;
+}
+/*Selector de clase*/
+.azul{
+    background-color: rgb(243, 180, 98);
+}

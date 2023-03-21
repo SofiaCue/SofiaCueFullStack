@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+}
+#principal{
+    height: 200px;
+    width: 40%;
+    background-color: rgba(112, 230, 230, 0.781);
+}
+#uno{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 25%;
+    height: 25%;
+    float: left;
+    background-color: rgb(233, 201, 160);
+}
+#dos{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 25%;
+    height: 25%;
+    float: left;
+    background-color: rgba(228, 143, 64, 0.938);
+}
+#tres{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 25%;
+    height: 25%;
+    float: left;
+    background-color: rgb(163, 248, 248);
+}
+#cuatro{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25%;
+    float: left;
+    background-color: rgb(46, 145, 145);
+}
+ul .fijo{
+    position: fixed;
+    top: 10px;
+}
+li{
+    display: inline;
+    background-color: black;
+    color: aliceblue;
+    margin: 2px;
+}
+
+#absoluta{
+    position: fixed;
+    height: 80vh;
+    width: 40vw;
+    background-color:rgba(236, 204, 114, 0.877);
+}
+#cinco{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 10vw;
+    height: 25vh;
+    float: right;
+    background-color: rgb(19, 117, 117);
+}
+#seis{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 10vw;
+    height: 25vh;
+    float: right;
+    background-color: rgb(19, 117, 117);
+}
+#siete{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 10vw;
+    height: 25vh;
+    float: right;
+    background-color: rgb(19, 117, 117);
+}
+#ocho{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 10vw;
+    height: 25vh;
+    float: right;
+    background-color: rgb(19, 117, 117);
+}
+/*Posicionamiento*/
+#posAbsoluta{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    flex-wrap: no-wrap;
+}
+.cuadro{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(145, 67, 218, 0.849);
+}
+footer{
+    position: sticky;
+    background-color: rgba(52, 52, 243, 0.774);
+    padding: 20px;
+    bottom: 0px;
+    text-align: center;
+    z-index: 0;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px black;
+}
+header{
+    background-image: url(../img/flex.jpg);
+    height: 100px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}

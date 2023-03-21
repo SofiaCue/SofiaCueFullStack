@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tablas y Formularios</h1>
+    </header>
+    <nav>
+        <ul type="none">
+            <li><a href="../index.html"> Inicio </a> </li>
+            <li><a href="./paginas/tablas.html" disabled> Tablas </a> </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Login</h2>
+            <form action="./procesarDatos.html" method="get">
+                <div>
+                    <label for="Usuario"> Usuario </label>
+                    <input type="text" name="usuario" id="usuario">
+                </div>
+                <div>
+                    <label for="Password"> Password</label>
+                    <input type="password" name="password" id="passord">
+                </div>
+                <div>
+                    <input type="submit" value="Ingresar">
+                </div>
+            </form>
+        </section>
+        <section>
+            <h2>Registrarse</h2>
+            <form action="./procesarDatos.html" method="get">
+                <div>
+                    <label for="Nombre"> Nombre</label>
+                    <input type="name" name="name" id="name">
+                </div>
+                <div>
+                    <label for="Usuario"> Usuario </label>
+                    <input type="text" name="usuario" id="usuario">
+                </div>
+                <div>
+                    <label for="email"> Email </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="Edad"> Edad</label>
+                    <input type="number" name="Edad" id="Edad">
+                </div>
+                <div>
+                    <label for="Fecha de Nacimiento"> Fecha de Nacimiento</label>
+                    <input type="date" name="Fecha de Nacimiento" id="Fecha de Nacimiento">
+                </div>
+                <div>
+                    <label for="Ciudad"> Ciudad</label>
+                    <select name="Ciudad" id="Ciudad">
+                        <option value="Capital"> Capital</option>
+                        <option value="Rio Tercero"> Rio Tercero</option>
+                        <option value="Rio Cuarto"> Rio Cuarto</option>
+                        <option value="Salsipuedes"> Salsipuedes</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Foto"> Foto</label>
+                    <input type="file" name="Foto" id="Foto">
+                </div>
+                <div>
+                    <label for="Password"> Password</label>
+                    <input type="password" name="password" id="passord">
+                </div>
+                
+                <div>
+                    <input type="submit" value="Ingresar">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
